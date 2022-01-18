@@ -1,0 +1,27 @@
+
+.album-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--bg-dark-primary);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: var(--bg-dark-darker);
+    color: var(--txt-primary);
+    /* text-align: center; */
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-dark-darker);
+    color: var(--txt-primary);
+    text-align: center;
+}
+
